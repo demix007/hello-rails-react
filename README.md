@@ -11,8 +11,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-
-- [📖 Hello Rails React](#hello-rails-react)
+- [📖 Hello Rails React ](#-hello-rails-react-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -23,7 +22,6 @@
     - [Install](#install)
     - [Usage](#usage)
     - [Run tests](#run-tests)
-    - [Deployment](#deployment)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -33,10 +31,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
+# 📖 Hello Rails React <a name="about-project"></a>
 
-# 📖 Rails Capstone <a name="about-project"></a>
-
-> Hello rails and react is a project in which you can see random greetings.
+**Hello Rails React** is a project that demonstrates how to build a Rails API with a React frontend.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -45,21 +42,21 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li>React</li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li>Ruby on Rails</li>
+    <li><a href="https://rubyonrails.org/">Ruby On Rails</a></li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li>Postgresql</li>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
 
@@ -67,14 +64,18 @@
 
 ### Key Features <a name="key-features"></a>
 
-- We can see random greetings.
+- **Render Random messages**
+- **Rails API stores database**
+- **Webpack combiles JavaScript**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
+
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Cooming Soon!]
+- [Not Availabe]()
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -87,48 +88,54 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-```
-
- - Laptop/Desktop.
- - Internet.
- - Ruby.
- - Rails.
- - Vs Code.
-
+```sh
+  ruby 3.2.1
+  rails
+  node
+  yarn
 ```
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-```
- - mkdir my-folder
- - cd my-folder
- - git clone git@github.com:SaboorSohaib/hello-rails-react.git
- - cd hello-rails-react
- - bundle install
- - rails db:create
- - rails db:migrate
+Example commands:
 
+```sh
+  cd your-folder
+  git clone https://github.com/MohamedHNoor/hello-rails-react.git
 ```
+
+### Install
+
+Install this project with:
+
+Example command:
+
+```sh
+  cd my-project
+  bundle install
+```
+
 ### Usage
 
 To run the project, execute the following command:
 
-- rails server
+Example command:
+
+```sh
+  ./bin/dev or rails server
+```
 
 ### Run tests
 
-- rspec.
+To run tests, run the following command:
 
-### Check Linter 
+Example command:
 
-- rubocop
-- npx stylelint "**/*.{css,scss}"
-
-### Deployment
-
-- Render
+```sh
+  bin/rails rspec
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,11 +143,11 @@ To run the project, execute the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Abdul Saboor Sohaib**
+👤 **Mohamed Hassan Noor**
 
-- GitHub: [![SaboorSohaib](https://img.shields.io/badge/-SaboorSohaib-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/SaboorSohaib)
-- Twitter: [![absaboorsohaib](https://img.shields.io/badge/-absaboorsohaib-blue?logo=Twitter&logoColor=skyBlue&style=plastic)](https://twitter.com/absaboorsohaib)
-- LinkedIn: [![abdul-saboor-sohaib](https://img.shields.io/badge/-AbdulSaboorSohaib-white?logo=LinkedIn&logoColor=181717&style=plastic)](https://www.linkedin.com/in/abdul-saboor-sohaib/)
+- GitHub: [@MohamedHNoor](https://github.com/MohamedHNoor)
+- Twitter: [@MohamedHNoor](https://twitter.com/MohamedHNoor)
+- LinkedIn: [@MohamedHNoor](https://www.linkedin.com/in/mohamedhnoor/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,7 +155,9 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Enhance design.** 
+- [x] **Add more greetings**
+- [x] **Add styles**
+- [x] **Add Header**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -158,7 +167,7 @@ To run the project, execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/MohamedHNoor/hello-rails-react/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,7 +175,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project you can fork it.
+If you like this project please give it a ⭐️. Your support is greatly appreciated!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -174,10 +183,9 @@ If you like this project you can fork it.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank... <a href="https://www.microverse.org/?gclid=CjwKCAiArY2fBhB9EiwAWqHK6s-2-x4d57Pghz47XT1BgsYuF81ZprM-k-IwzI0_L96nV0SQ93A8ExoCVnQQAvD_BwE" title="planet icons">Microvers for giving me this opportunity to build this project</a>
+I would like to thank [Microverse](https://www.microverse.org/) for giving me this chance to learn how to build a Rails API with a React frontend.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- LICENSE -->
 
@@ -186,5 +194,3 @@ I would like to thank... <a href="https://www.microverse.org/?gclid=CjwKCAiArY2f
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-# hello-rails-react
-# hello-rails-react

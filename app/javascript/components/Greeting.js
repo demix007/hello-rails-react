@@ -1,15 +1,22 @@
-import { useSelector } from 'react-redux';
+import React, { useEffect } from 'react';
+import { connect } from 'react-redux';
+import { fetchRandomMessage } from '../actions/messageActions';
 
-function Greeting() {
-  const greetings = useSelector((state) => state.greeting);
+const Greeting = ({ message, fetchRandomMessage }) => {
+  useEffect(() => {
+    fetchRandomMessage();
+  }, [fetchRandomMessage]);
+  console.log(message);
+
   return (
     <div>
-      <h1>Some One Says:</h1>
-      <h2>
-        {greetings}
-      </h2>
+      <h1>{message}</h1>
     </div>
   );
-}
+};
 
-export default Greeting;
+const mapStateProps = (state) => ({
+  message: state.message,
+});
+
+export default connect(mapStateProps, { fetchRandomMessage })(Greeting);
